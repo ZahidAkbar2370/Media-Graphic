@@ -55,4 +55,14 @@ public function compte_client_commandes_details($id){
     return view('admin.compatible.compte-client-commandes',compact('order_details'));
 }
 
+public function compte_client_devis($id){
+
+
+    $devis=User::join('role_users as r','r.user_id','=','users.id')
+    ->select('users.*','r.role_id')->where('users.id',$id)->first();
+
+    return view('admin.compatible.compte-client-devis',compact('devis'));
+
+}
+
 }

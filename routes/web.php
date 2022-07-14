@@ -7,7 +7,7 @@ use App\Http\Controllers\FrontEndController;
 
 //admin panel controllers
 use App\Http\Controllers\Admin\AdminController;
-
+use App\Http\Controllers\Admin\GeneralController;
 use App\Http\Controllers\QuotationController;
 
 use App\Http\Controllers\OrderController;
@@ -56,13 +56,28 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin', 'as' => 'admin.'], f
 		Route::get('edit/{id}', [CommandeController::class, 'editcommande']);
 		Route::get('status/{st}/{id}', [CommandeController::class, 'statuscommande']);
 	});
+    Route::group(array('prefix' => 'compteclient'), function () {
+
+        Route::get('/commandes', [CommandeController::class, 'adminTraiters']);
+        Route::get('devis', [QuotationController::class, 'admindevis']);
+        Route::get('factures', [GeneralController::class, 'adminFactures']);
+        Route::get('statistiques', [GeneralController::class, 'adminStatistiques']);
+        Route::get('avoris', [GeneralController::class, 'adminAvoris']);
+    });
 	Route::group(array('prefix' => 'comptabililite'), function () {
+        Route::get('/', [CommandeController::class, 'adminTraiters']);
+        Route::get('devis', [QuotationController::class, 'admindevis']);
+        Route::get('factures', [GeneralController::class, 'adminFactures']);
+        Route::get('statistiques', [GeneralController::class, 'adminStatistiques']);
+        Route::get('avoris', [GeneralController::class, 'adminAvoris']);
+
 		Route::get('/', [CommandeController::class, 'adminTraiters']);
         Route::get('clients',[CompactibleController::class,'clients']);
         Route::get('generate-pdf/{id}', [CompactibleController::class, 'generate_pdf']);
         Route::get('compte-details/{id}',[CompactibleController::class,'details']);
         Route::put('update-user/{id}', [CompactibleController::class, 'update']);
         Route::get('compte-client-commandes/{id}',[CompactibleController::class,'compte_client_commandes_details']);
+        Route::get('compte-client-devis/{id}',[CompactibleController::class,'compte_client_devis']);
 
 		Route::get('traiter', [CommandeController::class, 'adminTraiters']);
 		Route::get('encours', [CommandeController::class, 'adminEncours']);

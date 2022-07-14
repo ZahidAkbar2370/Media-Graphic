@@ -101,17 +101,17 @@
                                             </div>
                                         </div>
                                         <!-- <div class="row form-row">
-                                                                                                                                                                  <div class="col-md-8">
-                                                                                                                                                                    <div class="radio">
-                                                                                                                                                                      <input id="m" type="radio" name="gender" value="m" checked="checked">
-                                                                                                                                                                      <label for="m">M</label>
-                                                                                                                                                                      <input id="mme" type="radio" name="gender" value="mme">
-                                                                                                                                                                      <label for="mme">Mme</label>
-                                                                                                                                                                      <input id="mlle" type="radio" name="gender" value="mlle">
-                                                                                                                                                                      <label for="mlle">Mlle</label>
-                                                                                                                                                                    </div>
-                                                                                                                                                                  </div>
-                                                                                                                                                                </div> -->
+                                                                                                                                                                          <div class="col-md-8">
+                                                                                                                                                                            <div class="radio">
+                                                                                                                                                                              <input id="m" type="radio" name="gender" value="m" checked="checked">
+                                                                                                                                                                              <label for="m">M</label>
+                                                                                                                                                                              <input id="mme" type="radio" name="gender" value="mme">
+                                                                                                                                                                              <label for="mme">Mme</label>
+                                                                                                                                                                              <input id="mlle" type="radio" name="gender" value="mlle">
+                                                                                                                                                                              <label for="mlle">Mlle</label>
+                                                                                                                                                                            </div>
+                                                                                                                                                                          </div>
+                                                                                                                                                                        </div> -->
                                         <div class="row form-row">
                                             <div class="col-md-5">
                                                 <input name="first_name" id="form3FirstName" type="text"
@@ -125,16 +125,16 @@
                                             </div>
                                         </div>
                                         <!-- <div class="row form-row">
-                                                                                                                                                                  <div class="col-md-5">
-                                                                                                                                                                    <select name="form3Gender" id="form3Gender" class="select2 form-control">
-                                                                                                                                                                      <option value="1">Male</option>
-                                                                                                                                                                      <option value="2">Female</option>
-                                                                                                                                                                    </select>
-                                                                                                                                                                  </div>
-                                                                                                                                                                  <div class="col-md-7">
-                                                                                                                                                                    <input type="text" placeholder="Date of Birth" class="form-control" id="form3DateOfBirth" name="form3DateOfBirth">
-                                                                                                                                                                  </div>
-                                                                                                                                                                </div> -->
+                                                                                                                                                                          <div class="col-md-5">
+                                                                                                                                                                            <select name="form3Gender" id="form3Gender" class="select2 form-control">
+                                                                                                                                                                              <option value="1">Male</option>
+                                                                                                                                                                              <option value="2">Female</option>
+                                                                                                                                                                            </select>
+                                                                                                                                                                          </div>
+                                                                                                                                                                          <div class="col-md-7">
+                                                                                                                                                                            <input type="text" placeholder="Date of Birth" class="form-control" id="form3DateOfBirth" name="form3DateOfBirth">
+                                                                                                                                                                          </div>
+                                                                                                                                                                        </div> -->
                                         <div class="row form-row">
                                             <div class="col-md-12">
                                                 <input name="form3Email" id="form3Email" type="text"
@@ -173,13 +173,13 @@
                                             </div>
                                         </div>
                                         <!-- <div class="row form-row">
-                                                                                                                                                                  <div class="col-md-6">
-                                                                                                                                                                    <input name="form3State" id="form3State" type="text" class="form-control" placeholder="Région">
-                                                                                                                                                                  </div>
-                                                                                                                                                                  <div class="col-md-6">
-                                                                                                                                                                    <input name="form3Country" id="form3Country" type="text" class="form-control" placeholder="Pays">
-                                                                                                                                                                  </div>
-                                                                                                                                                                </div> -->
+                                                                                                                                                                          <div class="col-md-6">
+                                                                                                                                                                            <input name="form3State" id="form3State" type="text" class="form-control" placeholder="Région">
+                                                                                                                                                                          </div>
+                                                                                                                                                                          <div class="col-md-6">
+                                                                                                                                                                            <input name="form3Country" id="form3Country" type="text" class="form-control" placeholder="Pays">
+                                                                                                                                                                          </div>
+                                                                                                                                                                        </div> -->
                                         <h4>Adresse de facturation</h4>
                                         <div class="row form-row pull-left">
                                             <div class="col-md-12">
@@ -211,19 +211,19 @@
                                             </div>
                                         </div>
                                         <!-- <div class="row small-text">
-                                                                                                                                                                  <p class="col-md-12">
-                                                                                                                                                                    NOTE - Facts to be considered, Simply remove or edit this as for what you desire. Disabled font Color and size
-                                                                                                                                                                  </p>
-                                                                                                                                                                </div> -->
+                                                                                                                                                                          <p class="col-md-12">
+                                                                                                                                                                            NOTE - Facts to be considered, Simply remove or edit this as for what you desire. Disabled font Color and size
+                                                                                                                                                                          </p>
+                                                                                                                                                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="form-actions">
                                     <!-- <div class="pull-left">
-                                                                                                                                                                <div class="checkbox checkbox check-success   ">
-                                                                                                                                                                  <input type="checkbox" value="1" id="chkTerms">
-                                                                                                                                                                  <label for="chkTerms">I Here by agree on the Term and condition. </label>
-                                                                                                                                                                </div>
-                                                                                                                                                              </div> -->
+                                                                                                                                                                        <div class="checkbox checkbox check-success   ">
+                                                                                                                                                                          <input type="checkbox" value="1" id="chkTerms">
+                                                                                                                                                                          <label for="chkTerms">I Here by agree on the Term and condition. </label>
+                                                                                                                                                                        </div>
+                                                                                                                                                                      </div> -->
                                     <div class="pull-right">
                                         <button class="btn btn-primary btn-cons" type="submit"><i class="icon-ok"></i>
                                             Enregistrer</button>
@@ -241,7 +241,9 @@
                                 class="material-icons">shopping_cart</i> Commandes</a>
                     </div>
                     <div class="col-md-12">
-                        <a class="btn btn-block btn-info" href="#"><i class="material-icons">info</i> Devis</a>
+                        <a class="btn btn-block btn-info"
+                            href="{{ url('admin/comptabililite/compte-client-devis/' . $user->id) }}"><i
+                                class="material-icons">info</i> Devis</a>
                     </div>
                     <div class="col-md-12">
                         <a class="btn btn-block btn-info" href="#"><i class="material-icons">layers</i>
